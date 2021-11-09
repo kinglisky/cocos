@@ -8,7 +8,7 @@
 const {ccclass, property} = cc._decorator;
 
 @ccclass
-export default class NewClass extends cc.Component {
+export default class Ball extends cc.Component {
 
     @property(cc.SpriteAtlas)
     ballAtlas: cc.SpriteAtlas = null;
@@ -18,7 +18,6 @@ export default class NewClass extends cc.Component {
     start () {
 
     }
-
     // update (dt) {}
 
     randomBall(range: number = 0) {
